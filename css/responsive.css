@@ -1,0 +1,1652 @@
+/*		Default Layout: 992px.
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1024px;
+}
+
+@media only screen and (max-width: 320px) {
+  /*About Action Mailing*/
+  .content .about_am {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .content .para > a {
+    margin-left: 21.5%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .content .para a:hover {
+    font-size: 22px;
+  }
+  /* Slider */
+  .slider-active .owl-nav div {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 25%;
+    line-height: 28px;
+    font-size: 20px;
+  }
+  .slider-active .owl-dot {
+    height: 10px;
+    width: 10px;
+  }
+  /* Testimonials */
+  .test_content > p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    background-size: 100% 150%;
+  }
+  .testimonial > a {
+    margin-left: 16%;
+    font-size: 20px;
+  }
+  /* Latest Blog Posts */
+  .post .link a {
+    margin-left: 20%;
+    padding: 9px 10px;
+    font-size: 20px;
+  }
+  .post .left {
+    margin-bottom: 20px;
+  }
+  /* Schedule a Free Consultation Today */
+  .contact-us {
+    margin-top: 120px;
+  }
+  .contact h2 {
+    font-size: 25px;
+    top: 0%;
+    left: 0%;
+    margin-top: 30px;
+  }
+  .contact > a {
+    margin-left: 30%;
+    padding: 9px 15px;
+    font-size: 20px;
+    top: 60%;
+  }
+  /* Footer section */
+  .footer-wrapper .left img {
+    min-height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-wrapper .right {
+    min-height: 300px;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .social-icon {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .social-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  /*Inner page style*/
+  /*Header image*/
+  .slider-image h2 {
+    margin-left: 15px;
+  }
+  /*Menu*/
+  .inner-menu li {
+    margin-left: 0px;
+  }
+  /*left part*/
+  .content .left {
+    margin-right: -15px;
+  }
+  /*video*/
+  .paragraph iframe {
+    width: 100%;
+    height: auto;
+  }
+  /*quot*/
+  .paragraph .quot i {
+    min-height: 400px;
+    text-align: justify;
+  }
+  /*special-offer*/
+  .content .right .special-offer p {
+    font-size: 30px;
+    left: 11%;
+  }
+  /*img*/
+  .paragraph > img {
+    margin-top: -50px;
+    margin-bottom: 10px;
+  }
+  /*right part*/
+  .content .right {
+    margin-left: -15px;
+  }
+  /*latest post*/
+  .right-side .posts .news h3 {
+    margin-left: 15px;
+  }
+  .right-side .posts .news p {
+    margin-left: 15px;
+  }
+  .right-side .posts .news i {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+  /*About Action Mailing*/
+  .content .about_am {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .content .para > a {
+    margin-left: 29.5%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .content .para a:hover {
+    font-size: 22px;
+  }
+  /* Slider */
+  .slider-active .owl-nav div {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 25%;
+    line-height: 28px;
+    font-size: 20px;
+  }
+  .slider-active .owl-dot {
+    height: 10px;
+    width: 10px;
+  }
+  /* Testimonials */
+  .test_content > p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    background-size: 100% 150%;
+  }
+  .testimonial > a {
+    margin-left: 22%;
+    font-size: 20px;
+  }
+  /* Latest Blog Posts */
+  .post .link a {
+    margin-left: 25%;
+    padding: 9px 10px;
+    font-size: 20px;
+  }
+  .post .left {
+    margin-bottom: 20px;
+  }
+  /* Schedule a Free Consultation Today */
+  .contact-us {
+    margin-top: 120px;
+  }
+  .contact h2 {
+    font-size: 30px;
+    top: 0%;
+    left: 5%;
+    margin-top: 30px;
+  }
+  .contact > a {
+    margin-left: 35%;
+    padding: 9px 15px;
+    font-size: 20px;
+    top: 60%;
+  }
+  /* Footer section */
+  .footer-wrapper .left img {
+    min-height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-wrapper .right {
+    min-height: 300px;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .social-icon {
+    width: 95%;
+    padding-bottom: 20px;
+  }
+  .social-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  /*Inner page style*/
+  /*Header image*/
+  .slider-image h2 {
+    margin-left: 15px;
+  }
+  /*Menu*/
+  .inner-menu li {
+    margin-left: 0px;
+  }
+  /*left part*/
+  .content .left {
+    margin-right: -15px;
+  }
+  /*video*/
+  .paragraph iframe {
+    width: 100%;
+    height: 200px;
+  }
+  /*quot*/
+  .paragraph .quot i {
+    min-height: 400px;
+    text-align: justify;
+  }
+  /*special-offer*/
+  .content .right .special-offer p {
+    font-size: 35px;
+    left: 21%;
+    top: 35%;
+  }
+  /*img*/
+  .paragraph > img {
+    margin-top: -125px;
+    margin-bottom: 10px;
+  }
+  /*right part*/
+  .content .right {
+    margin-left: -15px;
+  }
+  /*latest post*/
+  .right-side .posts .news h3 {
+    margin-left: 15px;
+  }
+  .right-side .posts .news p {
+    margin-left: 15px;
+  }
+  .right-side .posts .news i {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 579px) {
+  /*About Action Mailing*/
+  .content .about_am {
+    width: 69%;
+    margin-left: 15%;
+  }
+  .content .para > a {
+    margin-left: 32.5%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  /* Slider */
+  .slider-active .owl-nav div {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 30%;
+    line-height: 28px;
+    font-size: 20px;
+  }
+  .slider-active .owl-dot {
+    height: 10px;
+    width: 10px;
+  }
+  /* Testimonials */
+  .test_content > p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    background-size: 100% 150%;
+  }
+  .testimonial > a {
+    margin-left: 31%;
+    font-size: 20px;
+  }
+  /* Latest Blog Posts */
+  .post .link a {
+    margin-left: 32%;
+    padding: 9px 10px;
+    font-size: 21px;
+  }
+  .post .left {
+    margin-bottom: 20px;
+  }
+  .heading2 {
+    width: 100%;
+  }
+  /* Schedule a Free Consultation Today */
+  .contact-us {
+    margin-top: 130px;
+  }
+  .contact h2 {
+    font-size: 30px;
+    top: 0%;
+    left: 10%;
+    margin-top: 30px;
+  }
+  .contact > a {
+    margin-left: 38%;
+    padding: 9px 15px;
+    font-size: 20px;
+    top: 60%;
+  }
+  /* Footer section */
+  .footer-wrapper .left img {
+    min-height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-wrapper .right {
+    min-height: 300px;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .social-icon {
+    width: 70%;
+    padding-bottom: 20px;
+  }
+  /*Inner page style*/
+  /*Header image*/
+  .slider-image h2 {
+    margin-left: 15px;
+  }
+  /*Menu*/
+  .inner-menu li {
+    margin-left: 0px;
+  }
+  /*left part*/
+  .content .left {
+    margin-right: -15px;
+  }
+  /*video*/
+  .paragraph iframe {
+    width: 100%;
+    height: 250px;
+  }
+  /*quot*/
+  .paragraph .quot i {
+    min-height: 400px;
+    text-align: justify;
+  }
+  /*special-offer*/
+  .content .right .special-offer p {
+    font-size: 35px;
+    left: 28%;
+    top: 35%;
+  }
+  /*img*/
+  .paragraph > img {
+    margin-top: -200px;
+    margin-bottom: 0px;
+  }
+  /*right part*/
+  .content .right {
+    margin-left: -15px;
+  }
+  /*latest post*/
+  .right-side .posts .news h3 {
+    margin-left: 15px;
+  }
+  .right-side .posts .news p {
+    margin-left: 15px;
+  }
+  .right-side .posts .news i {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 580px) and (max-width: 679px) {
+  .content .about_am {
+    width: 60%;
+    margin-left: 19%;
+  }
+  .content .para > a {
+    margin-left: 32.5%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  /* Slider */
+  .slider-active .owl-nav div {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 35%;
+    line-height: 32px;
+    font-size: 25px;
+  }
+  .slider-active .owl-dot {
+    height: 12px;
+    width: 12px;
+  }
+  /* Testimonials */
+  .test_content > p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    background-size: 100% 150%;
+  }
+  .testimonial > a {
+    margin-left: 34%;
+    font-size: 20px;
+  }
+  /* Latest Blog Posts */
+  .post .link a {
+    margin-left: 32%;
+    padding: 9px 10px;
+    font-size: 21px;
+  }
+  .post .left {
+    margin-bottom: 20px;
+  }
+  .post .left .heading1 img {
+    width: 615px;
+  }
+  .post .right img {
+    width: 615px;
+  }
+  .heading2 {
+    width: 100%;
+  }
+  /* Schedule a Free Consultation Today */
+  .contact-us {
+    margin-top: 130px;
+  }
+  .contact h2 {
+    font-size: 30px;
+    top: 0%;
+    left: 15%;
+    margin-top: 30px;
+  }
+  .contact > a {
+    margin-left: 40%;
+    padding: 9px 15px;
+    font-size: 25px;
+    top: 60%;
+  }
+  /* Footer section */
+  .footer-wrapper .left img {
+    min-height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-wrapper .right {
+    min-height: 300px;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .social-icon {
+    width: 60%;
+    padding-bottom: 20px;
+  }
+  /*Inner page style*/
+  /*Header image*/
+  .slider-image h2 {
+    margin-left: 15px;
+  }
+  /*Menu*/
+  .inner-menu li {
+    margin-left: 0px;
+  }
+  /*left part*/
+  .content .left {
+    margin-right: -15px;
+  }
+  /*video*/
+  .paragraph iframe {
+    width: 100%;
+    height: 300px;
+  }
+  /*quot*/
+  .paragraph .quot i {
+    min-height: 400px;
+    text-align: justify;
+  }
+  /*special-offer*/
+  .content .right .special-offer p {
+    font-size: 35px;
+    left: 28%;
+    top: 35%;
+  }
+  /*img*/
+  .paragraph > img {
+    margin-top: -230px;
+    margin-bottom: 10px;
+  }
+  /*right part*/
+  .content .right {
+    margin-left: -15px;
+  }
+  /*latest post*/
+  .right-side .posts .news h3 {
+    margin-left: 15px;
+  }
+  .right-side .posts .news p {
+    margin-left: 15px;
+  }
+  .right-side .posts .news i {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 767px) {
+  .content .about_am {
+    width: 45%;
+    margin-left: 27%;
+  }
+  .content .para > a {
+    margin-left: 37.5%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  /* Slider */
+  .slider-active .owl-nav div {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 26%;
+    line-height: 31px;
+    font-size: 25px;
+  }
+  .slider-active .owl-dot {
+    height: 12px;
+    width: 12px;
+  }
+  /* Testimonials */
+  .test_content > p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    background-size: 100% 150%;
+  }
+  .testimonial > a {
+    margin-left: 38%;
+    font-size: 20px;
+  }
+  /* Latest Blog Posts */
+  .post .link a {
+    margin-left: 39%;
+    padding: 9px 10px;
+    font-size: 21px;
+  }
+  .post .left {
+    margin-bottom: 20px;
+  }
+  .post .left .heading1 img {
+    width: 705px;
+    height: 460px;
+  }
+  .post .right img {
+    width: 705px;
+    height: 460px;
+  }
+  .heading2 {
+    width: 100%;
+  }
+  /* Schedule a Free Consultation Today */
+  .contact-us {
+    margin-top: 130px;
+  }
+  .contact h2 {
+    font-size: 30px;
+    top: 0%;
+    left: 21%;
+    margin-top: 30px;
+  }
+  .contact > a {
+    margin-left: 42%;
+    padding: 9px 15px;
+    font-size: 25px;
+    top: 60%;
+  }
+  /* Footer section */
+  .footer-wrapper .left img {
+    min-height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-wrapper .right {
+    min-height: 300px;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .social-icon {
+    width: 50%;
+    padding-bottom: 20px;
+  }
+  /*Inner page style*/
+  /*Header image*/
+  .slider-image h2 {
+    margin-left: 15px;
+  }
+  /*Menu*/
+  .inner-menu li {
+    margin-left: 0px;
+  }
+  /*left part*/
+  .content .left {
+    margin-right: -15px;
+  }
+  /*video*/
+  .paragraph iframe {
+    width: 100%;
+    height: 350px;
+  }
+  /*quot*/
+  .paragraph .quot i {
+    min-height: 400px;
+    text-align: justify;
+  }
+  /*special-offer*/
+  .content .right .special-offer p {
+    font-size: 35px;
+    left: 34%;
+    top: 35%;
+  }
+  /*img*/
+  .paragraph > img {
+    margin-top: -245px;
+    margin-bottom: 10px;
+  }
+  /*right part*/
+  .content .right {
+    margin-left: -15px;
+  }
+  /*latest post*/
+  .right-side .posts .news h3 {
+    margin-left: 15px;
+  }
+  .right-side .posts .news p {
+    margin-left: 15px;
+  }
+  .right-side .posts .news i {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 879px) {
+  .content .about_am {
+    width: 40%;
+    margin-left: 30%;
+  }
+  .content .para > a {
+    margin-left: 36.5%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  /* Header-image slider-main*/
+  .header-text {
+    top: 17%;
+    left: 7%;
+  }
+  /* Slider */
+  .slider-active .owl-nav div {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 19%;
+    line-height: 31px;
+    font-size: 25px;
+  }
+  .slider-active .owl-dot {
+    height: 13px;
+    width: 13px;
+  }
+  /* Testimonials */
+  .test_content > p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    background-size: 100% 106%;
+  }
+  .testimonial > a {
+    margin-left: 40%;
+    font-size: 20px;
+  }
+  /* Latest Blog Posts */
+  .post .link a {
+    margin-left: 39%;
+    padding: 9px 10px;
+    font-size: 21px;
+  }
+  .post .left {
+    margin-bottom: 20px;
+  }
+  .post .left .heading1 {
+  }
+  .heading2 {
+    width: 100%;
+  }
+  /* Schedule a Free Consultation Today */
+  .contact-us {
+    margin-top: -40px;
+  }
+  .contact h2 {
+    font-size: 35px;
+    top: 0%;
+    left: 21%;
+    margin-top: 35px;
+  }
+  .contact > a {
+    margin-left: 42%;
+    padding: 9px 15px;
+    font-size: 25px;
+    top: 60%;
+  }
+  /* Footer section */
+  .social-icon {
+    width: 90%;
+  }
+  .social-icon a img:hover {
+    width: 150%;
+    height: 150%;
+  }
+  /*Inner page style*/
+  /*Header image*/
+  .slider-image h2 {
+    margin-left: 15px;
+  }
+  /*Menu*/
+  .inner-menu li {
+    margin-left: 0px;
+  }
+  /*left part*/
+  /*video*/
+  .paragraph iframe {
+    width: 100%;
+    height: 350px;
+  }
+  /*quot*/
+  .paragraph .quot i {
+    min-height: 400px;
+    text-align: justify;
+  }
+  /*special-offer*/
+  .content .right .special-offer p {
+    left: 11%;
+    top: 40%;
+    font-size: 30px;
+    padding: 10px;
+  }
+  /*img*/
+  .paragraph > img {
+    margin-top: -200px;
+    margin-bottom: 40px;
+  }
+  /*right part*/
+  .right-side h2 {
+    font-size: 27px;
+  }
+  .content .right a {
+    width: 100%;
+    font-size: 20px;
+  }
+  .content .right a:hover {
+    font-size: 21px;
+  }
+  /*latest post*/
+  .right-side .posts .news h3 {
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .right-side .posts .news p {
+    margin-left: 15px;
+  }
+  .right-side .posts .news i {
+    margin-left: 15px;
+  }
+  .contact h2 {
+    margin-top: 55px;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 839px) and (max-width: 993px) {
+  /* Latest Blog Posts */
+  .post .left .heading1 {
+    padding-bottom: 37px;
+  }
+}
+
+@media only screen and (min-width: 880px) and (max-width: 979px) {
+  .content .about_am {
+    width: 35%;
+    margin-left: 32%;
+  }
+  .content .para > a {
+    margin-left: 41.5%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  /* Header-image slider-main*/
+  .header-text {
+    top: 20%;
+    left: 15%;
+  }
+  /* Slider */
+  .slider-active .owl-nav div {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 5%;
+    line-height: 31px;
+    font-size: 25px;
+  }
+  .slider-active .owl-dot {
+    height: 13px;
+    width: 13px;
+  }
+  /* Testimonials */
+  .test_content > p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    background-size: 100% 106%;
+  }
+  .testimonial > a {
+    margin-left: 39%;
+    font-size: 20px;
+  }
+  /* Schedule a Free Consultation Today */
+  .contact-us {
+    margin-top: 130px;
+  }
+  .contact h2 {
+    font-size: 35px;
+    top: 0%;
+    left: 21%;
+    margin-top: 35px;
+  }
+  .contact > a {
+    margin-left: 42%;
+    padding: 9px 15px;
+    font-size: 25px;
+    top: 60%;
+  }
+  /* Footer section */
+  .social-icon {
+    width: 80%;
+  }
+  .social-icon a img:hover {
+    width: 150%;
+    height: 150%;
+  }
+  /*Inner page style*/
+  /*Header image*/
+  .slider-image h2 {
+    margin-left: 15px;
+  }
+  /*Menu*/
+  .inner-menu li {
+    margin-left: 0px;
+  }
+  /*left part*/
+  /*video*/
+  .paragraph iframe {
+    width: 100%;
+    height: 350px;
+  }
+  /*quot*/
+  .paragraph .quot i {
+    min-height: 400px;
+    text-align: justify;
+  }
+  /*special-offer*/
+  .content .right .special-offer p {
+    left: 19%;
+    top: 40%;
+    font-size: 30px;
+    padding: 10px;
+  }
+  /*img*/
+  .paragraph > img {
+    margin-top: -230px;
+    margin-bottom: 70px;
+  }
+  /*right part*/
+  .right-side h2 {
+    font-size: 32px;
+  }
+  .content .right a {
+    width: 100%;
+    font-size: 20px;
+  }
+  .content .right a:hover {
+    font-size: 21px;
+  }
+  /*latest post*/
+  .right-side .posts .news h3 {
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .right-side .posts .news p {
+    margin-left: 15px;
+  }
+  .right-side .posts .news i {
+    margin-left: 15px;
+  }
+  .contact h2 {
+    margin-top: 55px;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1079px) {
+  .content .about_am {
+    width: 30%;
+    margin-left: 35%;
+  }
+  /* Header-image slider-main*/
+  .header-text {
+    top: 24%;
+    left: 18%;
+  }
+  /* Slider */
+  .slider-active .owl-nav div {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 10%;
+    line-height: 31px;
+    font-size: 25px;
+  }
+  .slider-active .owl-dot {
+    height: 13px;
+    width: 13px;
+  }
+  /* Testimonials */
+  .test_content > p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    background-size: 100% 106%;
+  }
+  .testimonial > a {
+    margin-left: 39%;
+    font-size: 20px;
+  }
+  /* Schedule a Free Consultation Today */
+  .contact-us {
+    margin-top: 60px;
+  }
+  .contact h2 {
+    font-size: 35px;
+    top: 0%;
+    left: 21%;
+    margin-top: 35px;
+  }
+  .contact > a {
+    margin-left: 42%;
+    padding: 9px 15px;
+    font-size: 25px;
+    top: 60%;
+  }
+  /* Footer section */
+  .social-icon {
+    width: 70%;
+  }
+  .social-icon a img:hover {
+    width: 150%;
+    height: 150%;
+  }
+  /*Inner page style*/
+  /*menu*/
+  .inner-menu li {
+    margin-left: 0px;
+  }
+  /*left part*/
+  /*Header image*/
+  .slider-image h2 {
+    margin-left: 15px;
+  }
+  /*video*/
+  .paragraph iframe {
+    width: 100%;
+    height: 350px;
+  }
+  /*quot*/
+  .paragraph .quot i {
+    min-height: 400px;
+    text-align: justify;
+  }
+  /*special-offer*/
+  .content .right .special-offer p {
+    left: 23%;
+    top: 40%;
+    font-size: 30px;
+    padding: 10px;
+  }
+  /*img*/
+  .paragraph > img {
+    margin-top: -250px;
+    margin-bottom: 70px;
+  }
+  /*right part*/
+  .right-side h2 {
+    font-size: 32px;
+  }
+  .content .right a {
+    width: 100%;
+    font-size: 25px;
+  }
+  .content .right a:hover {
+    font-size: 26px;
+  }
+  /*latest post*/
+  .right-side .posts .news h3 {
+    margin-left: 0px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .right-side .posts .news p {
+    margin-left: 0px;
+  }
+  .right-side .posts .news i {
+    margin-left: 0px;
+  }
+  .contact h2 {
+    margin-top: 55px;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1179px) {
+  .content .about_am {
+    width: 25%;
+    margin-left: 38%;
+  }
+  /* Header-image slider-main*/
+  .header-text {
+    top: 26%;
+    left: 20%;
+  }
+  /* Testimonials */
+  .test_content > p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    background-size: 100% 100%;
+  }
+  .testimonial > a {
+    margin-left: 40%;
+    font-size: 20px;
+  }
+  /* Schedule a Free Consultation Today */
+  .contact-us {
+    margin-top: 90px;
+  }
+  .contact h2 {
+    font-size: 31px;
+    top: 0%;
+    left: 30%;
+    margin-top: 35px;
+  }
+  .contact > a {
+    margin-left: 45%;
+    padding: 9px 15px;
+    font-size: 25px;
+    top: 60%;
+  }
+  /* Footer section */
+  .social-icon {
+    width: 60%;
+  }
+  .footer-wrapper .left img {
+    min-height: 349px;
+  }
+  .social-icon a img:hover {
+    width: 150%;
+    height: 150%;
+  }
+  /*Inner page style*/
+  /*menu*/
+  .inner-menu li {
+    margin-left: 0px;
+  }
+  /*left part*/
+  /*Header image*/
+  .slider-image h2 {
+    margin-left: 15px;
+  }
+  /*video*/
+  .paragraph iframe {
+    width: 100%;
+    height: 350px;
+  }
+  /*quot*/
+  .paragraph .quot i {
+    min-height: 400px;
+    text-align: justify;
+  }
+  /*special-offer*/
+  .content .right .special-offer p {
+    left: 25%;
+    top: 40%;
+    font-size: 30px;
+    padding: 10px;
+  }
+  /*img*/
+  .paragraph > img {
+    margin-top: -250px;
+    margin-bottom: 70px;
+  }
+  /*right part*/
+  .right-side h2 {
+    font-size: 32px;
+  }
+  .content .right a {
+    width: 100%;
+    font-size: 25px;
+  }
+  .content .right a:hover {
+    font-size: 26px;
+  }
+  /*latest post*/
+  .right-side .posts .news h3 {
+    margin-left: 0px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .right-side .posts .news p {
+    margin-left: 0px;
+  }
+  .right-side .posts .news i {
+    margin-left: 0px;
+  }
+  .contact h2 {
+    margin-top: 55px;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 1180px) and (max-width: 1279px) {
+  .content .about_am {
+    width: 26%;
+    margin-left: 37%;
+  }
+  /* Testimonials */
+  .test_content > p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    background-size: 100% 100%;
+  }
+  .testimonial > a {
+    margin-left: 41%;
+    font-size: 20px;
+  }
+  /* Latest Blog Posts */
+  .post .link a {
+    margin-left: 39%;
+    padding: 9px 10px;
+    font-size: 21px;
+  }
+  .post .left {
+    margin-bottom: 20px;
+  }
+  .post .left .heading1 {
+  }
+  .heading2 {
+    width: 100%;
+  }
+  /* Schedule a Free Consultation Today */
+  .contact-us {
+    margin-top: 100px;
+  }
+  .contact h2 {
+    font-size: 35px;
+    top: 0%;
+    left: 31%;
+    margin-top: 35px;
+  }
+  .contact > a {
+    margin-left: 45%;
+    padding: 9px 15px;
+    font-size: 25px;
+    top: 60%;
+  }
+  /* Footer section */
+  .social-icon {
+    width: 55%;
+  }
+  .footer-wrapper .left img {
+    height: 349px;
+  }
+  .social-icon a img:hover {
+    width: 150%;
+    height: 150%;
+  }
+  /*Inner page style*/
+  /*menu*/
+  .inner-menu li {
+    margin-left: 0px;
+  }
+  /*left part*/
+  /*Header image*/
+  .slider-image h2 {
+    margin-left: 15px;
+  }
+  /*video*/
+  .paragraph iframe {
+    width: 100%;
+    height: 350px;
+  }
+  /*quot*/
+  .paragraph .quot i {
+    min-height: 400px;
+    text-align: justify;
+  }
+  /*special-offer*/
+  .content .right .special-offer p {
+    left: 25%;
+    top: 40%;
+    font-size: 30px;
+    padding: 10px;
+  }
+  /*img*/
+  .paragraph > img {
+    margin-top: -250px;
+    margin-bottom: 70px;
+  }
+  /*right part*/
+  .right-side h2 {
+    font-size: 32px;
+  }
+  .content .right a {
+    width: 100%;
+    font-size: 25px;
+  }
+  .content .right a:hover {
+    font-size: 26px;
+  }
+  /*latest post*/
+  .right-side .posts .news h3 {
+    margin-left: 0px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .right-side .posts .news p {
+    margin-left: 0px;
+  }
+  .right-side .posts .news i {
+    margin-left: 0px;
+  }
+  .contact h2 {
+    margin-top: 55px;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+  /* Footer section */
+  .social-icon {
+    width: 50%;
+  }
+  .footer-wrapper .left img {
+    height: 349px;
+  }
+  .social-icon a img:hover {
+    width: 150%;
+    height: 150%;
+  }
+  /* Schedule a Free Consultation Today */
+  .contact-us {
+    margin-top: 100px;
+  }
+  .contact h2 {
+    font-size: 35px;
+    top: 0%;
+    left: 31%;
+    margin-top: 35px;
+  }
+  .contact > a {
+    margin-left: 45%;
+    padding: 9px 15px;
+    font-size: 25px;
+    top: 60%;
+  }
+  /*Inner page style*/
+  /*menu*/
+  .inner-menu li {
+    margin-left: 0px;
+  }
+  /*left part*/
+  /*Header image*/
+  .slider-image h2 {
+    margin-left: 15px;
+  }
+  /*video*/
+  .paragraph iframe {
+    width: 100%;
+    height: 350px;
+  }
+  /*quot*/
+  .paragraph .quot i {
+    min-height: 400px;
+    text-align: justify;
+  }
+  /*special-offer*/
+  .content .right .special-offer p {
+    left: 22%;
+    top: 37%;
+    font-size: 40px;
+    padding: 15px;
+  }
+  /*img*/
+  .paragraph > img {
+    margin-top: -280px;
+    margin-bottom: 70px;
+  }
+  /*right part*/
+  .right-side h2 {
+    font-size: 40px;
+  }
+  .content .right a {
+    width: 100%;
+    font-size: 30px;
+  }
+  .content .right a:hover {
+    font-size: 31px;
+  }
+  /*latest post*/
+  .right-side .posts .news h3 {
+    margin-left: 0px;
+    font-size: 23px;
+  }
+  .right-side .posts .news p {
+    margin-left: 0px;
+  }
+  .right-side .posts .news i {
+    margin-left: 0px;
+  }
+  .contact h2 {
+    margin-top: 55px;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .social-icon a img:hover {
+    width: 150%;
+    height: 150%;
+  }
+}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Header section + Navigation */
+  .container {
+    width: 100%;
+  }
+  .navigation {
+    width: 95%;
+  }
+  .main-menu li {
+    margin-left: 1%;
+  }
+  .main-menu li a {
+    font-size: 12px;
+    color: #505050;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1365px) {
+  /* Header section + Navigation */
+  .container {
+    width: 100%;
+  }
+  .navigation {
+    width: 95%;
+  }
+  .main-menu li {
+    margin-left: 3%;
+  }
+  .main-menu li a {
+    font-size: 12px;
+    color: #505050;
+  }
+}
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 479px) {
+  /*Comprehensive Direct Marketing Solutins*/
+  .ms-images .img1 img {
+    height: 300px;
+    width: 100%;
+  }
+  .ms-images .img2 img {
+    height: 300px;
+    width: 100%;
+  }
+  .ms-images .img3 img {
+    height: 300px;
+    width: 100%;
+  }
+  .ms-images .img1 .it-data {
+    left: 29%;
+    top: 9%;
+  }
+  .ms-images .img1 .learn1 a {
+    left: 34%;
+    top: 21%;
+    display: block;
+  }
+  .ms-images .img2 .printing {
+    left: 34%;
+    top: 41%;
+  }
+  .ms-images .img2 .learn2 a {
+    left: 34%;
+    top: 53%;
+    display: block;
+  }
+  .ms-images .img3 .production {
+    left: 28%;
+    top: 74%;
+  }
+  .ms-images .img3 .learn3 a {
+    left: 34.5%;
+    top: 86%;
+    display: block;
+  }
+  /* Header section + Navigation */
+  .slider {
+    display: block;
+  }
+  .slider-area {
+    display: none;
+  }
+  .h-nav li a i {
+    color: #505050;
+    font-size: 20px;
+  }
+  .h-nav li a span {
+    color: #505050;
+    font-size: 20px;
+  }
+  .header-area .logo {
+    width: 100%;
+    margin: auto;
+  }
+  .container {
+    width: 100%;
+  }
+  .navigation {
+    width: 95%;
+  }
+  .main-menu {
+    display: none;
+  }
+  .main-menu li {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 5px;
+  }
+  .main-menu li a {
+    font-size: 18px;
+    color: #505050;
+    display: block;
+  }
+  .main-menu li a:hover {
+    font-size: 19px;
+    border-bottom: 0px solid #0093d0;
+  }
+  .header-nav {
+    padding-top: 0px;
+  }
+  .bar {
+    display: block;
+  }
+}
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* Header section + Navigation */
+  .slider-area {
+    display: none;
+  }
+  .slider {
+    display: block;
+  }
+  .container {
+    width: 100%;
+  }
+  .navigation {
+    width: 95%;
+  }
+  .main-menu {
+    display: none;
+  }
+  .main-menu li {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .main-menu li a {
+    font-size: 18px;
+    color: #505050;
+    display: block;
+    margin: 0;
+    padding: 12px 0;
+  }
+  .main-menu li a:hover {
+    border: 0;
+  }
+  .header-nav {
+    padding-top: 0px;
+  }
+  .bar {
+    display: block;
+  }
+  /*Comprehensive Direct Marketing Solutins*/
+  .ms-images .img1 img {
+    height: 300px;
+    width: 100%;
+  }
+  .ms-images .img2 img {
+    height: 300px;
+    width: 100%;
+  }
+  .ms-images .img3 img {
+    height: 300px;
+    width: 100%;
+  }
+  .ms-images .img1 .it-data {
+    left: 34%;
+    top: 9%;
+  }
+  .ms-images .img1 .learn1 a {
+    left: 40%;
+    top: 21%;
+    display: block;
+  }
+  .ms-images .img2 .printing {
+    left: 40%;
+    top: 41%;
+  }
+  .ms-images .img2 .learn2 a {
+    left: 40%;
+    top: 53%;
+    display: block;
+  }
+  .ms-images .img3 .production {
+    left: 36%;
+    top: 74%;
+  }
+  .ms-images .img3 .learn3 a {
+    left: 40%;
+    top: 86%;
+    display: block;
+  }
+}
+
+/*	Retina media query.
+	Overrides styles for devices with a
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2) {
+}
